@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     do {
         // Validate input
-        if (empty($name) || empty($description) || empty($quantity)) {
+        if (empty($name) || empty($description) || empty($quantity) || empty($selectedComponents)) {
             $errorMessage = "All fields, except components, are required.";
             break;
         }
