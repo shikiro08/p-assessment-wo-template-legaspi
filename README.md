@@ -1,42 +1,16 @@
-# **Practical Assessment**
-## **Lou Geh Manufacturing Company**
-Lou Geh manufacturing company produces products. The following product information is stored: product name, product ID and quantity on hand. These products are made up of many components. Each component can be supplied by one or more suppliers. The following component information is kept: component ID, name, description, suppliers who supply them, and products in which they are used. 
--	A supplier can exist without providing components.
--	A component does not have to be associated with a supplier.
--	A component does not have to be associated with a product. Not all components are used in products.
--	A product cannot exist without components.
+Legaspi Inventory Prototype 
+Luo Geh Manufactirung
 
-## **Task**
-1. Create a prototype based on the attached problem
-2. Technologies and design to be used are the following:
-    * Backend -  PHP
-    * Database - MySQL
-    * Frontend - Basic HTML, CSS and Javascript
-3. As for your application documentations you need to provide the ff:
-   1. ERD
-   2. DFD
-4. Provide a ```README.md``` containing the setup guide.
-5. The application should be published in Github via forked repository and for final version of your prototype will create a ```Pull request``` in Github 
-6. You will send the Github link to us thru our email devops@biotechfarms.com on or before **23-08-2024** 12:00 PM
+I am Deniell L. Legaspi, a graduate in Computer Engineering. While I have a programming background, my skills are basic. I understand program flow, but I find it difficult to build complex programs I did build my thesis myself with the help of youtube and AI from scratch and often rely on my old programs with similar structures. However, I am good at following instructions, and this program is based on my understanding. I also rely on AI to supplement my skills, but I am eager to gain experience to become a professional software engineer. Thank you for taking the time to review my work. (This is my own word but AI fix the grammar)
 
+Instruction:
 
-    ### **Directory structure**
-    ```
-    my-app/
-    ├── configs                      (Config scripts)
-    |   └── db.php
-    ├── controllers                      (PHP Controller scripts)
-    |   └── UserController.php
-    ├── js/
-    |   └── app.js                       (Javascript scripts)
-    ├── css/
-    |   └── style.css                    (CSS scripts)
-    ├── index.html                       (Entry point)
-    ├── documentation/                   (Documentation files and assessts)
-    |   └── UserController.php
-    └── README.md                        (Project documentation)
-    ```
-    ### **Submission format**
-    - Repository should show codebase directory directly **DO NOT PUT YOUR CODE BASE IN A ZIP FILE** use git commands instead to push your code-base and further updates.
-    - Prototype's latest version should be the default branch of the repository.
-    - Provide a READ.ME file on how to install and deploy your prototype, and its prerequisite, software, sdk(if needed), and driver.
+1. download all the file and save it to the htdocs folder inside the xampp
+
+2. inside the config folder you can find the sql file as the database import it in the http://localhost/phpmyadmin/  to create the database
+
+3. this program has limited functions only add function is available 
+
+4. inside the documentary you can find the ERD and DFD of the sytem to understand how it works
+
+5. after import the sql file you can now run the program in the localhost 
