@@ -5,12 +5,14 @@ I am Deniell L. Legaspi, a graduate in Computer Engineering. While I have a prog
 
 Instruction:
 
-1. download all the file and save it to the htdocs folder inside the xampp
+1. inorder for this to run you must install a xampp application or any other application as server
 
-2. inside the config folder you can find the sql file as the database import it in the http://localhost/phpmyadmin/  to create the database
+2. download all the file and save it to the htdocs folder inside the xampp
 
-3. this program has limited functions only add function is available 
+3. inside the config folder you can find the sql file as the database import it in the http://localhost/phpmyadmin/  to create the database
 
-4. inside the documentary you can find the ERD and DFD of the sytem to understand how it works
+4. this program has limited functions only add function is available 
 
-5. after import the sql file you can now run the program in the localhost 
+5. inside the documentary you can find the ERD and DFD of the sytem to understand how it works
+
+6. after import the sql file you can now run the program in the localhost 
